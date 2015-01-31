@@ -1,0 +1,35 @@
+// order.example.json
+// http://fhir.hackathon.siim.org/fhir/Order/example/?_format=application/json
+
+{
+    "resourceType": "Order",
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Request for Prescription (on patient Donald DUCK @ Acme Healthcare, Inc. MR = 654321)</div>"
+    },
+    "date": "2012-12-28T09:03:04+11:00",
+    "subject": {
+        "reference": "Patient/pat2"
+    },
+    "source": {
+        "reference": "Practitioner/example"
+    },
+    "reasonCodeableConcept": {
+        "text": "Standard admission testing"
+    },
+    "when": {
+        "code": {
+            "coding": [
+                {
+                    "system": "http://acme.com/codes/request-priority",
+                    "code": "today"
+                }
+            ]
+        }
+    },
+    "detail": [
+        {
+            "reference": "MedicationPrescription/example"
+        }
+    ]
+}
