@@ -2,7 +2,7 @@
 Skeleton for creating FHIR assets to match TCGA image data for the SIIM Hackathon
 
 # What?
-The [Society for Imaging Informatics in Medicine (SIIM)]http://www.siim.org/ is supporting the new DICOMWEB and FHIR standards by creating opportunities for it's members to interact with these systems at the annual meeting, and throughout the year
+The [Society for Imaging Informatics in Medicine (SIIM)](http://www.siim.org/) is supporting the new DICOMWEB and FHIR standards by creating opportunities for it's members to interact with these systems at the annual meeting, and throughout the year
 through it's Hackathon/HackPack projects.
 
 # Why?
